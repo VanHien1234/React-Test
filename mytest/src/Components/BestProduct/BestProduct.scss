@@ -1,0 +1,61 @@
+.bestProduct{
+    background-image: url(./bes-bg_2021-09-30/bes-bg.png);
+    background-size: fill;
+    background-repeat:no-repeat ;
+    margin-top: -45px;
+    @media screen and (max-width: 576px) {
+        background-image: url(./bes-bg_2021-09-30/bes-bg@3x.png);
+        background-size: fill;
+        background-repeat:no-repeat ;
+        
+    }
+
+    .container{
+        color: rgb(247, 81, 81);
+        h2{
+            font-size: 50px;
+            line-height: 60px;
+            letter-spacing: 5px;
+        }
+        p{
+            font-size: 20px;
+            
+            line-height: 35px;
+        }
+        .product-area{
+            color: black;
+            .product-card{
+                position: relative;
+                .icon-img{
+                    position: absolute;
+                    top:0;
+                    left: 0;
+                }
+                .card-img{
+                    z-index: 0;
+                }
+                .card-body{
+    
+                    
+                    background: white;
+                    border: solid 5px black;
+                    width: 90%;
+                    margin: 0 auto;
+            
+                    p{
+                        text-align: left;
+                    }
+                    .GO{
+                        padding: 10px;
+                        border-radius: 50%;
+                        background-color: black ;
+                        color: white;
+                    }
+                }
+
+            }
+            
+            
+        }
+    }
+}

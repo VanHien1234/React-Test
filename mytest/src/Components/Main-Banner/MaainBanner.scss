@@ -1,0 +1,51 @@
+.mainBanner{
+    background-image: url(./main-banner_2021-09-30/main-banner.png);
+    height: 100vh;
+    background-size: cover;
+    @media screen and (max-width: 576px) {
+        height: 50vh;
+        background-size: fill;
+      }
+    background-repeat:no-repeat ;
+}
+.bg-introduction{
+    margin-top: -10px;
+    background-image: url(./introduction-bg_2021-09-30/introduction-bg.png);
+    height: 500px;
+    background-size: contain;
+    background-repeat:no-repeat ;
+    @media screen and (max-width: 576px) {
+        height: 200px;
+    }
+
+    .content{
+        color: white;
+        
+        padding-top: 100px;
+        h2{
+            font-size: 50px;
+            text-align: left;
+            line-height: 60px;
+            letter-spacing: 5px;
+        }
+        p{
+            font-size: 20px;
+            text-align: left;
+            line-height: 35px;
+        }
+        @media screen and (max-width: 576px) {
+            padding-top: 20px;
+            h2{
+                font-size: 20px;
+                text-align: left;
+                line-height: 10px;
+                letter-spacing: 5px;
+            }
+            p{
+                font-size: 10px;
+                text-align: left;
+                
+            }
+        }
+    }
+}
